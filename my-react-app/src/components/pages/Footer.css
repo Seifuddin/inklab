@@ -1,0 +1,38 @@
+.footer{
+    min-width: 100%;
+    height: fit-content;
+    background: black;
+    background-image: linear-gradient(black, grey, black);
+    margin: 10px;
+    padding: 50px;
+}
+
+.footer-header{
+    color: white;
+    text-align: center;
+
+}
+
+.inklablogo {
+    width: 10%;
+    height: auto;
+}
+
+.futabox {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.copyright {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.futa-info {
+    margin-bottom: 20px;
+}
