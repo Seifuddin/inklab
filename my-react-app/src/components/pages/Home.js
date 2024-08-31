@@ -10,6 +10,7 @@ import FacebookLink from './FollowUs';
 import image from '../images/360_F_280568035_7to3KEUviNQgGjXMPGLveHJsFSDmxEIv.jpg';
 import digitalprinting from '../images/1000040016.jpg';
 import colonel from '../images/colonel.png';
+import msg from '../images/png-clipart-ios-message-icon-iphone-message-computer-icons-text-messaging-messenger-electronics-grass.png';
 import facebook from '../images/2048px-Facebook_icon_2013.svg.png';
 import whatsapp from '../images/pngtree-whatsapp-icon-png-image_3584845.jpg';
 import x from '../images/new-twitter-logo-x-2023-twitter-x-logo-vector-download_691560-10806.jpg';
@@ -248,36 +249,60 @@ const HomePage = () => {
 
 
             <div className="col">
+              <a href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer' >
                 <img className='imej' src={facebook} alt='facebook' />
+              </a>
             </div>
 
             <div className="col">
+            <a href='https://x.com/' target='_blank' rel='noopener noreferrer' >
                 <img className='imej' src={x} alt='twitter' />
+            </a>
             </div>
 
             <div className="col">
+            <a href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer' >
                 <img className='imej' src={instagram} alt='instagram' />
+            </a>
             </div>
 
             <div className="col">
+            <a href='https://www.youtube.com/' target='_blank' rel='noopener noreferrer' >
                 <img className='imej' src={youtube} alt='youtube' />
+            </a>
             </div>
 
             <div className="col">
-                <img className='imej' src={whatsapp} alt='whatsapp' />
+            <a href='https://wa.me/0111608331' >
+                <img className='imej' src={whatsapp} alt='whatsapp' target='_blank' rel='noopener noreferrer' />
+            </a>
             </div>
 
             <div className="col">
+            <a href='tel:+254111608331'>
                 <img className='imej' src={telephone} alt='telephone' />
+            </a>
             </div>
+
+            <div className="col">
+            <a href='sms:+254111608331'>
+                <img className='imej' src={msg} alt='message' />
+            </a>
+            </div>
+
+            
 
 
             <div className="col">
+            <a href='https://www.tiktok.com/' target='_blank' rel='noopener noreferrer' >
                 <img className='imej' src={tiktok} alt='tiktok' />
+            </a>
             </div>
 
             <div className="col">
+            <a href='https://mail.google.com/' target='_blank' rel='noopener noreferrer' >
                 <img className='imej' src={gmail} alt='email' />
+            </a>
             </div>
         </div>
     </div>
